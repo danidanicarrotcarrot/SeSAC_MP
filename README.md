@@ -16,7 +16,7 @@
 
 ## 📷 [Mini Project 2: CCTV 설치 현황 분석](https://github.com/danidanicarrotcarrot/SeSAC_MP/blob/main/mp2_seoulPopulation.ipynb)
 #### 목표
-- 구별 CCTV 설치 수 분석
+- 서울시 구별 CCTV 설치 수 분석
 - CCTV 인구수 비율 계산
 - 산점도 및 라인 플롯 시각화
 
