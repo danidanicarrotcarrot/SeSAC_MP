@@ -50,3 +50,17 @@
 - Selenium
 - ChromeWebDriver
 - Python, Pandas
+
+
+
+## 📼 [Mini Project 5: 유튜브 랭크 사이트 크롤링](https://github.com/danidanicarrotcarrot/SeSAC_MP/blob/main/mp5_youtubeCrawling.ipynb)
+#### 크롤링 대상
+- 유튜브 채널 구독자 수 기준 순위와 정보가 담긴 ['유튜브 랭크'](https://youtube-rank.com/board/bbs/board.php?bo_table=youtube&page=1) 사이트
+
+#### 크롤링 내용
+- 1-1000위 유튜브 채널 정보 (순위, 채널명, 카테고리, 구독자 수, view 수, 영상 수)
+
+#### 사용 기술
+- Selenium
+- ChromeWebDriver
+- Python, Pandas, Matplotlib, Seaborn
