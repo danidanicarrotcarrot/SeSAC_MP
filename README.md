@@ -67,7 +67,7 @@
 
 
 
-## 📼 [Mini Project 6: username 변환 & 구구단 출력 페이지 만들기](https://github.com/danidanicarrotcarrot/SeSAC_MP/tree/main/mp6_username%2Bgugudan)
+## 💻 [Mini Project 6: username 변환 & 구구단 출력 페이지 만들기](https://github.com/danidanicarrotcarrot/SeSAC_MP/tree/main/mp6_username%2Bgugudan)
 #### 사용 기술
 - Flask, python, html
 
