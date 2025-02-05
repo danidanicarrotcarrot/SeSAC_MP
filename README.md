@@ -64,3 +64,13 @@
 - Selenium
 - ChromeWebDriver
 - Python, Pandas, Matplotlib, Seaborn
+
+
+
+## 📼 [Mini Project 6: username 변환 & 구구단 출력 페이지 만들기](https://github.com/danidanicarrotcarrot/SeSAC_MP/tree/main/mp6_username%2Bgugudan)
+#### 사용 기술
+- Flask, python, html
+
+#### task
+- 1 : username을 입력받아 조건에 따라 대문자, 소문자로 변환하기
+- 2 : 숫자를 입력받아 구구단 출력하기
