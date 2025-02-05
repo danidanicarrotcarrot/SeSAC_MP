@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제 2</title>
+</head>
+<body>
+    <h1>과제 2 : 구구단을 외자</h1>
+    <form method="POST">
+        <label for="number">출력하고자 하는 구구단을 입력하세요:</label>
+        <input type="number" id="number" name="number" required>
+        <button type="submit">구구단 확인하기</button>
+    </form>
+    {% if result %}
+        <h2>결과:</h2>
+        <ul>
+            {% for line in result %}
+                <li>{{ line }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('index') }}">뒤로 가기</a>
+</body>
+</html>

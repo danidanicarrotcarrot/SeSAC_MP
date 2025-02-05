@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제 1</title>
+</head>
+<body>
+    <h1>과제 1: Username 변환</h1>
+    <form method="POST">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">변환</button>
+    </form>
+    {% if result %}
+        <h2>{{ result }}님, 환영합니다.</h2>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('index') }}">뒤로 가기</a>
+</body>
+</html>
