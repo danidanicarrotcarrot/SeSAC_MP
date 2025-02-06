@@ -77,7 +77,7 @@
 
 
 
-## 💻 [Mini Project 7: 파일 서버 페이지 만들기](https://github.com/danidanicarrotcarrot/SeSAC_MP/tree/main/mp7_fs)
+## 📁 [Mini Project 7: 파일 서버 페이지 만들기](https://github.com/danidanicarrotcarrot/SeSAC_MP/tree/main/mp7_fs)
 #### 사용 기술
 - Flask, python, html
 
