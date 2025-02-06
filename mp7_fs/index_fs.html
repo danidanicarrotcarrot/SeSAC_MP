@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { text-align: left; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        button { padding: 5px 10px; background-color: red; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: darkred; }
+        input[type="file"] { margin-top: 10px; }
+        .upload-container { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>📁 File Server</h1>
+
+    <div class="upload-container">
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">업로드</button>
+        </form>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>파일 크기</th>
+                <th>만든 날짜</th>
+                <th>수정 날짜</th>
+                <th>다운로드</th>
+                <th>삭제</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in files %}
+            <tr>
+                <td>{{ file.name }}</td>
+                <td>{{ file.size }}</td>
+                <td>{{ file.created }}</td>
+                <td>{{ file.modified }}</td>
+                <td><a href="{{ url_for('uploaded_file', filename=file.name) }}" download>⬇️</a></td>
+                <td><a href="{{ url_for('delete_file', filename=file.name) }}"><button>삭제</button></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
