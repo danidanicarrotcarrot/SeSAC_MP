@@ -64,3 +64,10 @@
   - Python, Graphviz
 - task
   - 비플페이 앱 내부 속성들로 ERD(Entity-Relationship Diagram) 그래프 생성하기
+ 
+## ✅ [Mini Project 9: MongoDB GridFS 이미지 관리 프로그램](https://github.com/danidanicarrotcarrot/SeSAC_MP/blob/main/mp9_MongoDB_Gridfs.ipynb)
+- 목표
+  - MongoDB의 GridFS를 활용
+  - 이미지 파일을 저장, 수정, 삭제 및 출력할 수 있는 Python 프로그램 작성
+- 사용 기술
+  - Python, MongoDB, pymongo(MongoDB연결), gridfs(파일 저장 및 관리), Pillow(이미지 출력)
