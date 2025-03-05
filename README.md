@@ -84,3 +84,24 @@
   - XGBoost (고성능 분류 모델 활용)
   - Imbalanced-learn (SMOTE를 통한 클래스 불균형 처리)
   - RandomizedSearchCV (하이퍼파라미터 튜닝)
+
+## ✅ [Mini Project 11: xAPI-Edu-Data 분석 및 성적 예측](https://github.com/danidanicarrotcarrot/SeSAC_MP/blob/main/mp11_educationPrediction.ipynb)
+
+- 목표
+  - 교육 데이터를 활용하여 학생 성적(Class) 예측 모델 개발
+  - 탐색적 데이터 분석(EDA) 및 데이터 시각화를 통해 학습 행동 패턴 분석
+  - 머신러닝 분류 모델을 학습하고 성능 비교 (Logistic Regression, Random Forest, XGBoost, ANN 등)
+  - 하이퍼파라미터 튜닝을 통한 모델 최적화 및 성능 향상
+  - 주요 Feature Importance 분석을 통해 성적 예측의 핵심 요인 파악
+
+- 사용 기술
+  - Python, Pandas, Matplotlib, Seaborn (데이터 분석 & 시각화)
+  - Scikit-learn (머신러닝 모델 학습 및 평가)
+  - XGBoost (고성능 트리 기반 분류 모델)
+  - TensorFlow/Keras (딥러닝 기반 ANN 모델 구축)
+  - GridSearchCV & RandomizedSearchCV (하이퍼파라미터 튜닝)
+
+- 주요 인사이트
+  - 학생의 학습 참여(`raisedhands`, `VisITedResources`)와 성적(Class)의 상관관계가 높음
+  - 결석 횟수(`StudentAbsenceDays`)가 많을수록 성적이 낮아질 가능성이 큼
+  - 랜덤 포레스트가 가장 높은 성능을 기록했으며, 학습 행동 패턴을 반영하는 모델로 적합
