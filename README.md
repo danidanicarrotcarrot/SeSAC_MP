@@ -71,3 +71,16 @@
   - 이미지 파일을 저장, 수정, 삭제 및 출력할 수 있는 Python 프로그램 작성
 - 사용 기술
   - Python, MongoDB, pymongo(MongoDB연결), gridfs(파일 저장 및 관리), Pillow(이미지 출력)
+
+## ✅ [Mini Project 10: Heart Failure Prediction with Machine Learning](https://github.com/danidanicarrotcarrot/SeSAC_MP/blob/main/mp10_heartFailure.ipynb)
+- 목표
+  - 의료 데이터를 활용하여 심부전(Heart Failure) 예측 모델 개발
+  - 탐색적 데이터 분석(EDA) 및 데이터 시각화 수행
+  - 머신러닝 분류 모델을 학습하고 성능 비교 (Logistic Regression, Random Forest, XGBoost 등)
+  - SMOTE 및 임계값 조정을 통한 모델 최적화
+- 사용 기술
+  - Python, Pandas, Matplotlib, Seaborn (데이터 분석 & 시각화)
+  - Scikit-learn (머신러닝 모델 학습 및 평가)
+  - XGBoost (고성능 분류 모델 활용)
+  - Imbalanced-learn (SMOTE를 통한 클래스 불균형 처리)
+  - RandomizedSearchCV (하이퍼파라미터 튜닝)
